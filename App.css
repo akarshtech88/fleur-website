@@ -1,0 +1,1069 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100%;
+  height:100%;
+}
+
+.fl-img{
+  background-color: #808080;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:#ffffff;
+  height: 50px;
+  padding-left: 3rem;
+
+
+}
+.nav{
+  width: 100%;
+  height: auto;
+}
+
+
+nav{
+    background-color: #808080;
+     /* padding: 0px 5px;  */
+     
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+
+}
+
+nav ul{
+  display: flex;
+  gap: 30px;
+  padding-top: 1rem;
+
+
+}
+nav ul li {
+  list-style: none;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:#ffffff;
+  font-size: 1rem;
+  
+}
+.icon{
+  padding-right: 4rem;
+  /* display: flex;
+  gap: 10px; */
+  
+}
+.s-cart{
+  
+  color:#ffffff;
+ width:35px;
+ height: 25px;
+}
+.s-search{
+  
+  color:#ffffff;
+  width:35px;
+ height: 25px;
+
+}
+.s-menu{
+  
+  color:#ffffff;
+  width:35px;
+ height: 25px;
+
+}
+
+.h1{
+  
+  height: 900px;
+}
+
+
+.data{
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  
+  /* position: relative; */
+  /* top: -1rem; */
+    /* gap problem that's why */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.data .d1 h4{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #4A3E5A;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  line-height: 40px;
+}
+
+.data .d1 p{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: #808080;
+  
+}
+.global{
+   font-size: 50px;
+   color: grey;
+   position: relative;
+   left: 7rem;
+}
+
+
+.data .d2 h4{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #4A3E5A;
+  font-size: 1.2rem;
+  padding-left: 1.95rem;
+  line-height: 40px;
+}
+
+.data .d2 p{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: #808080;
+  
+}
+.arrow{
+   font-size: 50px;
+   color: grey;
+   position: relative;
+   left: 7rem;
+}
+
+
+
+.data .d3 h4{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #4A3E5A;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  line-height: 40px;
+}
+
+.data .d3 p{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: #808080;
+  
+}
+.heart{
+   font-size: 50px;
+   color: grey;
+   position: relative;
+   left: 7rem;
+}
+
+.main{
+  width: 100%;
+  height:400px;
+  background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/12/h1-img-1.jpg');
+
+}
+
+/* main data
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+:root {
+  --primary: #6a59ff;
+  --white: #ffffff;
+  --bg: #f5f5f5;
+}
+
+html,body {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg);
+}
+
+.container {
+  max-width: 124rem;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 1rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: #4A3E5A;
+  
+
+}
+
+.swiper_container {
+  height: 20rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .swiper_container {
+    height: 47rem;
+  }
+  .swiper-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .swiper-slide img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+}
+
+.swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.slider-controler {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-controler .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width: 990px) {
+  .slider-controler .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider-controler .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .slider-controler .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider-controler .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.slider-controler .slider-arrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.slider-controler .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.slider-controler .slider-arrow::after {
+  content: '';
+}
+
+.swiper-pagination {
+  position: relative;
+  width: 15rem !important;
+  bottom: 1rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
+
+/* testimonial*/
+
+.testimonial{
+
+  background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/05/h1-img-2.jpg?id=7049');
+  width: 100%;
+  height:600px;
+}
+
+:root {
+  --primary-color: #149e9e;
+  --secondary-color: #e8e8e8;
+  --text-dark: #0f172a;
+  --text-light: #94a3b8;
+  --white: #ffffff;
+}
+
+
+
+/* body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+} */
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section__container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.section__container h1 {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  /* color: var(--text-dark); */
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: #4A3E5A;
+  
+
+
+
+}
+
+.section__container h1::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 5rem;
+  /* background-color: var(--primary-color); */
+  background-color: #808080;
+}
+
+.section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.section__card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 5rem 2rem 2rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.section__card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  /* background-color: var(--primary-color);
+   */
+   background-color: #808080;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.section__card span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.section__card h4 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* color: var(--primary-color); */
+  color:#4A3E5A;
+  transition: 0.3s;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+
+}
+
+.section__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  transition: 0.3s;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 100;
+  font-style: italic;
+
+}
+
+.section__card img {
+  margin-bottom: 1rem;
+  max-width: 100px;
+  border-radius: 100%;
+  border: 2px solid var(--primary-color);
+  transition: 0.3s;
+}
+
+.section__card h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  /* color: var(--primary-color); */
+  color:#4A3E5A;
+  transition: 0.3s;
+    position: relative;
+    /* top:1rem; */
+    font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+.section__card h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-light);
+  transition: 0.3s;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.section__card:hover::before {
+  width: 400%;
+}
+
+.section__card:hover :is(h4, h5) {
+  color: var(--white);
+}
+
+.section__card:hover :is(p, h6) {
+  color: var(--secondary-color);
+}
+
+.section__card:hover img {
+  border-color: var(--white);
+}
+
+
+/* progress */
+
+.progress{
+  width: 100%;
+  min-height: 500px;
+  background-color: #ffffff;
+  /* background-color: #149e9e; */
+
+}
+
+
+/* datasection */
+
+.datasection{
+  width: 100%;
+  height: 300px;
+   /* background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/05/h1-parallax-1.jpg'); */
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap:.35rem;
+
+}
+.datasection h3{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #4A3E5A;
+}
+.para{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 100;
+  font-style: italic;
+  color: #656565;
+}
+
+.para2{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #4A3E5A;
+}
+
+
+
+
+/* team */
+
+.Team{
+  width: 100%;
+  height: 600px;
+  background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/05/h1-parallax-2.jpg');
+  background-size: cover;
+}
+.Team h2{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #4A3E5A;
+  
+}
+.h-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  line-height: 1.50rem;
+
+}
+.h-content p{
+  padding-top: .75rem;
+  word-spacing: 2px;
+  
+}
+.line{
+  padding-left: 9rem;
+  
+}
+.Team p{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.team-content{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5rem;
+}
+
+.team-content h4{
+
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #4A3E5A;
+
+
+}
+
+.team-content h5{
+
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #656565;
+
+
+}
+.team-content p{
+  font-style: normal;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #808080;
+}
+.icon{
+   display: flex;
+   gap: 15px;
+
+
+}
+.i1{
+  color: #ffffff;
+}
+
+
+/* client section */
+
+
+
+.client-section{
+  width: 100%;
+  height:300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-top: 2rem;
+
+}
+.section2{
+  padding-top: 1rem;
+  
+}
+
+.m-1{
+  padding-left: 8rem;
+}
+
+.section1 h2{
+    
+  font-style: normal;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #4A3E5A;
+  text-decoration:underline;
+ 
+
+}
+
+.section1 p{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 100;
+  font-style: italic;
+  padding-top: .75rem;
+}
+
+
+
+/* tweetsection */
+
+.tweet-section{
+  width: 100%;
+  min-height: 500px;
+  background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/05/h1-parallax-3.jpg');
+  background-size: cover;
+  /* background-position: top; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:15px;
+}
+
+.tweet-section h2{
+  font-style: normal;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 29px;
+  font-size: 2.95rem;
+}
+.tweet-section p{
+  color: #4A3E5A;
+  font-weight: 300;
+  position: relative;
+  bottom: 1.55rem;
+}
+.tweet{
+  color: #f5f5f5;
+  font-size: 50px;
+
+  
+}
+
+/* Endsection */
+
+.end-section{
+  width: 100%;
+  height: 200px;
+   background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/05/h1-img-2.jpg?id=7049');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+.end-section h2{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 300;
+  font-style: italic;
+  color: #605B67;
+  font-size: 34px;
+}
+
+
+/* footer */
+
+
+ /* *{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}  */
+footer{
+  background: #656565;
+  /* padding-top: 50px; */
+
+}
+.container{
+  width: 1140px;
+  /* margin: auto; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.footer-content{
+  width: 33.3%;
+}
+h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-content p{
+  width:190px;
+  margin: auto;
+  padding: 7px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.footer-content ul{
+  text-align: center;
+}
+.list{
+  padding: 0;
+}
+.list li{
+  width: auto;
+  text-align: center;
+  list-style-type:none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before{
+  content: '';
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: grey;
+  transition-duration: .5s;
+}
+.list li:hover::before{
+  width: 70px;
+}
+.social-icons{
+  text-align: center;
+  padding: 0;
+}
+.social-icons li{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i{
+  color: white;
+  font-size: 25px;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  color: black !important;
+}
+.social-icons i:hover{
+  color: #f18930;
+}
+.bottom-bar{
+  background: grey;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p{
+  /* color: #343434; */
+  color: #ffffff;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+.list li a{
+  color: white;
+   font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+}
+.fnt{
+  display: flex;
+  gap: 15px;
+  padding-left: 8rem;
+  position: relative;
+  bottom: 1rem;
+  
+  
+}
+.f1{
+    font-size: 1.27rem;
+    color: white;
+}
+
+/* .insta{
+    height: 100px;
+    width: 120px;
+} */
+
+.insta{
+  background-image: url('https://fleur.qodeinteractive.com/wp-content/uploads/2016/02/blog-post-img-10-600x720.jpg');
+  width:70%;
+  height: 180px;
+  background-size: cover;
+  margin-left: 4rem;
+}
+
+/* mainsection */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
+} */
+.wrapper{
+  display: flex;
+   position: relative;
+  bottom: 30rem; 
+  left: 9rem;
+  
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+  left: 2rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 300;
+  font-style: italic;
+
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 300;
+  font-style: italic;
+
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 4s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  /* content: ""; */
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background: #343F4F; */
+  /* background: #ffffff; */
+  background: transparent;
+  border-left: 2px solid #4A3E5A;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+.wrapper p{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing:auto;
+  font-weight: 900;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 1rem;
+  position: relative;
+  top: 5rem;
+  right: 15rem;
+}
